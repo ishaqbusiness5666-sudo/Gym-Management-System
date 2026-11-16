@@ -31,12 +31,12 @@ body {
 }
 
 .site-header {
-  position: absolute;
+ position: sticky;
   top: 0;
-  left: 0;
   width: 100%;
   z-index: 10;
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(12, 16, 12, 0.473);
 }
 
 .navbar {
@@ -45,8 +45,6 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 0 20px;
-  position: sticky;
-  top: 0;
 }
 
 .logo {
