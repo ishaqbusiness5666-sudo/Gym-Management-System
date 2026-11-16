@@ -1,0 +1,7 @@
+<svg width="220" height="72" viewBox="0 0 220 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="220" height="72" rx="12" fill="#101310"/>
+  <circle cx="36" cy="36" r="24" fill="#101310" stroke="#C5F467" stroke-width="3"/>
+  <path d="M24 30H30V42H24V30ZM42 30H48V42H42V30ZM30 34H42V38H30V34ZM20 26H28V28H20V26ZM36 20H44V22H36V20ZM20 44H28V46H20V44ZM36 50H44V52H36V50Z" fill="#C5F467"/>
+  <text x="66" y="42" fill="#F5F6F2" font-size="28" font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="1.2">MI3</text>
+  <text x="135" y="42" fill="#C5F467" font-size="28" font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="1.2">GYM</text>
+</svg>

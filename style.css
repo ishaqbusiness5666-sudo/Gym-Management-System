@@ -47,16 +47,26 @@ body {
   padding: 0 20px;
 }
 
-.logo {
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
   color: var(--white);
   text-decoration: none;
   font-family: 'Barlow Condensed', sans-serif;
-  font-size: 2rem;
   font-weight: 800;
   letter-spacing: 1px;
 }
 
-.logo span,
+.brand-mark {
+  display: block;
+  width: 170px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 0 1px rgba(197, 244, 103, 0.18);
+}
+
+.brand-text span,
 .hero h1 span,
 .about-content h2 span,
 .section-heading h2 span {
@@ -288,8 +298,8 @@ body {
   font-size: 0.8rem;
 }
 
-.footer .logo {
-  font-size: 1.6rem;
+.footer .brand-mark {
+  width: 150px;
 }
 
 @media (max-width: 760px) {
@@ -300,8 +310,8 @@ body {
     gap: 5px;
   }
 
-  .logo {
-    font-size: 1.7rem;
+  .brand-mark {
+    width: 140px;
   }
 
   .nav-links {
